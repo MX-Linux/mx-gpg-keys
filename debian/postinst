@@ -1,0 +1,11 @@
+#!/bin/sh
+USERS=$(lslogins --noheadings -u -o user | grep -vw root)
+
+# add keys to pubkeyring for iso verification and alerts messages
+for USER in $USERS
+do
+	  cmd="/usr/bin/gpg --keyserver hkp://keys.gnupg.net --recv-keys B9B6375C 0679EE98 892C32F1"
+      runuser $USER -c "$cmd" 2>/dev/null ||exit 0
+done
+
+exit 0
