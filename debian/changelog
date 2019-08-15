@@ -1,3 +1,9 @@
+mx-gpg-keys (19.08.02) mx; urgency=medium
+
+  * switch to import  
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 15 Aug 2019 06:22:04 -0400
+
 mx-gpg-keys (19.08.01) mx; urgency=medium
 
   * Initial release

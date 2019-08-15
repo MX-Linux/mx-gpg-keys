@@ -1,0 +1,2 @@
+gnupg/* etc/skel/.gnupg
+keys/* usr/share/mx-gpg-keys
