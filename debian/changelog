@@ -1,3 +1,9 @@
+mx-gpg-keys (19.08.03) mx; urgency=medium
+
+  * add trusted gpg storage
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 15 Aug 2019 20:16:29 -0400
+
 mx-gpg-keys (19.08.02) mx; urgency=medium
 
   * switch to import  
