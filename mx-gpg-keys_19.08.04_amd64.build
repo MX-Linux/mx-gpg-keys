@@ -1,7 +1,7 @@
  dpkg-buildpackage -us -uc -ui
 dpkg-buildpackage: info: source package mx-gpg-keys
-dpkg-buildpackage: info: source version 19.08.03
-dpkg-buildpackage: info: source distribution mx
+dpkg-buildpackage: info: source version 19.08.04
+dpkg-buildpackage: info: source distribution UNRELEASED
 dpkg-buildpackage: info: source changed by Dolphin Oracle <dolphinoracle@gmail.com>
  dpkg-source --before-build .
 dpkg-buildpackage: info: host architecture amd64
@@ -12,8 +12,8 @@ dh: Compatibility levels before 9 are deprecated (level 7 in use)
 dh_clean: Compatibility levels before 9 are deprecated (level 7 in use)
  dpkg-source -b .
 dpkg-source: info: using source format '3.0 (native)'
-dpkg-source: info: building mx-gpg-keys in mx-gpg-keys_19.08.03.tar.xz
-dpkg-source: info: building mx-gpg-keys in mx-gpg-keys_19.08.03.dsc
+dpkg-source: info: building mx-gpg-keys in mx-gpg-keys_19.08.04.tar.xz
+dpkg-source: info: building mx-gpg-keys in mx-gpg-keys_19.08.04.dsc
  debian/rules build
 dh build
 dh: Compatibility levels before 9 are deprecated (level 7 in use)
@@ -41,9 +41,9 @@ dh_installdeb: Compatibility levels before 9 are deprecated (level 7 in use)
    dh_gencontrol
    dh_md5sums
    dh_builddeb
-dpkg-deb: building package 'mx-gpg-keys' in '../mx-gpg-keys_19.08.03_all.deb'.
+dpkg-deb: building package 'mx-gpg-keys' in '../mx-gpg-keys_19.08.04_all.deb'.
  dpkg-genbuildinfo
- dpkg-genchanges  >../mx-gpg-keys_19.08.03_amd64.changes
+ dpkg-genchanges  >../mx-gpg-keys_19.08.04_amd64.changes
 dpkg-genchanges: info: including full source code in upload
  dpkg-source --after-build .
 dpkg-buildpackage: info: full upload; Debian-native package (full source is included)

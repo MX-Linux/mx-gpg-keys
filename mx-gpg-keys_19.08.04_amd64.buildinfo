@@ -2,19 +2,19 @@ Format: 1.0
 Source: mx-gpg-keys
 Binary: mx-gpg-keys
 Architecture: all source
-Version: 19.08.03
+Version: 19.08.04
 Checksums-Md5:
- 8ccd115e0d6db581bfdacf9837b1354f 610 mx-gpg-keys_19.08.03.dsc
- 1f2717362c423a53d0c037a7c7f6e01e 14008 mx-gpg-keys_19.08.03_all.deb
+ 16d21b05f374b0043b910e76fcce25db 610 mx-gpg-keys_19.08.04.dsc
+ f1016511e218a56d1fcbce0ce92b1d15 7564 mx-gpg-keys_19.08.04_all.deb
 Checksums-Sha1:
- 88ab72707f60c2e21c3c258b51297a5c88f8294b 610 mx-gpg-keys_19.08.03.dsc
- 5ad11e5f2c4eec4dbef30a3b8ee938577d257876 14008 mx-gpg-keys_19.08.03_all.deb
+ 324731ab4dda88e2c6957fd1a6059f0e0a7b5529 610 mx-gpg-keys_19.08.04.dsc
+ 74e162a6a1af50233be5866a59700d56f9315f35 7564 mx-gpg-keys_19.08.04_all.deb
 Checksums-Sha256:
- 9c0ffd12f7115a6562d5528614bcb540465b97253b5d6c649a1b5d2a8ba7817f 610 mx-gpg-keys_19.08.03.dsc
- 79abab4635c963f4db108bb38945096bb98820d917988b0d7c44a7634bfdc346 14008 mx-gpg-keys_19.08.03_all.deb
+ 70e2c41ec716ab5e0f36336a87fa7017479bb84be842376816bf05cb9ff45c57 610 mx-gpg-keys_19.08.04.dsc
+ b52b286501c655be331a5f189ed98f3d807ad0cb4425c2528ecffc7b23c5e6c7 7564 mx-gpg-keys_19.08.04_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Thu, 15 Aug 2019 20:17:09 -0400
+Build-Date: Tue, 20 Aug 2019 21:12:45 -0400
 Build-Tainted-By:
  usr-local-has-libraries
  usr-local-has-programs
@@ -161,4 +161,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1565914589"
+ SOURCE_DATE_EPOCH="1566349878"
