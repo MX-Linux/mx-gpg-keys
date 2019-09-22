@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 22 Sep 2019 15:27:02 -0400
+Source: mx-gpg-keys
+Binary: mx-gpg-keys
+Architecture: source all
+Version: 19.09.01
+Distribution: mx
+Urgency: medium
+Maintainer: dolphin oracle (dolphin) <dolphinoracle@gmail.com>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ mx-gpg-keys - public gpg keys for iso verification and alert messages
+Changes:
+ mx-gpg-keys (19.09.01) mx; urgency=medium
+ .
+   * updated adrian's key
+Checksums-Sha1:
+ 5a26d100a65f16b26a5c8a1c51710f37ebff86ac 610 mx-gpg-keys_19.09.01.dsc
+ 26fb69a22e9e25cb3fa45ba0fe03a94a5b9f5a93 11556 mx-gpg-keys_19.09.01.tar.xz
+ 63e7d2e6d920a7e0d07bbd48d05b412441f522bb 8140 mx-gpg-keys_19.09.01_all.deb
+ fba28888335b381dcd46140231697b08a96c6985 4601 mx-gpg-keys_19.09.01_amd64.buildinfo
+Checksums-Sha256:
+ e4b6d0b1598791a028eb9ed55e17923af30e4525e4f6e1b4522ebbb370cb689d 610 mx-gpg-keys_19.09.01.dsc
+ c6ae333d9287fe701ca8e8a7565991589c6f874d8701aa70657021bc0e6bc961 11556 mx-gpg-keys_19.09.01.tar.xz
+ 65e66930b6a1a3ec9f80611c7537a26e3d1d0e1fed57d7d2ac6b0c0e6a2e2494 8140 mx-gpg-keys_19.09.01_all.deb
+ fbcf347460a02f77dc3cf8540b848483e0c19ac1b2a007e01040ba92df2115ec 4601 mx-gpg-keys_19.09.01_amd64.buildinfo
+Files:
+ e87619fe30bcce76b6e7e9c2df16a3e4 610 admin optional mx-gpg-keys_19.09.01.dsc
+ b3938622251cda05a35d2fbd749f3b2f 11556 admin optional mx-gpg-keys_19.09.01.tar.xz
+ 99e924eb1cccf54eac2756feb87d469e 8140 admin optional mx-gpg-keys_19.09.01_all.deb
+ 552d23889eea48916a34a8e9ad04e2f4 4601 admin optional mx-gpg-keys_19.09.01_amd64.buildinfo
